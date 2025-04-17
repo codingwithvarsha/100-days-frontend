@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+}
+#btnContainer{
+    text-align: center;
+    font-size: 90px;
+    font-family:  Helvetica;
+}
+.btn{
+    padding: 20px 30px;
+    font-size: 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    background-color: white;
+    color: black;
+}
+.btn:hover{
+    background-color: rgba(104, 103, 103, 0.273);
+    color: white;
+}
+.btn:active{
+    opacity: 0.4;
+}
+#numberDis{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica;
+    color: white ;
+}
