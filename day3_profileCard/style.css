@@ -1,0 +1,151 @@
+body{
+    padding-left: 500px;
+    padding-top: 200px;
+    padding-bottom: 5%;
+}
+.main-box{
+  height: 570px;
+  width: 500px;
+  border: none;
+  border-radius: 20px;
+ box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.main-box:hover{
+    transform: rotateX(360deg);
+    transition:transform 2s ease-in 0.2;
+}
+.blue-content{
+    height: 200px;
+    background-color: rgba(8, 80, 204, 0.879);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+.profile{
+    background-image:url(profile.jpg) ;
+    background-size:cover;
+    height: 139px;
+    width: 125px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 108px;
+    right: 192px;
+}
+.top-head{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: lato,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sec-line{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+    font-family: lato,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+#twitter{
+    margin-right: 11px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+#instagram{
+    margin-right: 20px;
+    margin-left: 11px;
+    cursor: pointer;
+    
+}
+#facebook{
+    cursor: pointer;
+    
+}
+#youtube{
+    cursor: pointer;
+    
+}
+#instagram:hover{
+    
+    box-shadow: 2px 2px 2px gray;
+}
+#twitter:hover{
+    
+    box-shadow: 2px 2px 2px gray;
+}
+#youtube:hover{
+
+    box-shadow: 2px 2px 2px gray;
+}
+#facebook:hover{
+    
+    box-shadow: 2px 2px 2px gray;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    border-radius: 24px;
+    align-items: center;
+}
+#subscribe{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color:rgba(8, 80, 204, 0.879) ;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    vertical-align: top;
+    cursor: pointer;
+    font-family: lato;
+    font-size: 20px;
+
+}
+#message{
+    height: 40px;
+    width: 150px;
+    border:none;
+    background-color: rgba(8, 80, 204, 0.879);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: lato;
+    font-size: 20px;
+}
+#subscribe:hover{
+    background-color: #0e4bf1;
+    box-shadow: 2px 2px 2px gray;
+}
+#message:hover{
+    background-color: #0e4bf1;
+    box-shadow: 2px 2px 2px gray;
+}
+#symbols{
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 135px;
+    color: #333;
+    border-radius: 2px solid #e7e7e7;
+    padding: 0 20px;
+}
+div:hover{
+    transform: rotateX('360deg');
+    transition:transform 2s ease-in 0.2;
+}
